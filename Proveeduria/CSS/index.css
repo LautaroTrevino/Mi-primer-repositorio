@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    flex: center;
+    background-color: aqua;
+}
+.remitos{
+    border-right: 1px;
+}
+
+.productos{
+    border-right: 1px;
+}
+
+.escuelas {
+    border-right: 1px;
+}
