@@ -7,6 +7,9 @@
     <title>DESTINOS</title>
     <link rel="icon" href="../IMAGENES/destinos-logo - copia.ico">
     <link rel="stylesheet" href="../CSS/cursos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,33 +19,38 @@
         <nav>
             <ul class="nav">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../html/quienessomos.html">¿Quienes somos?</a></li>
+                <li><a href="quienessomos.html">¿Quienes somos?</a></li>
                 <li><a href="">Armado de carpetas</a></li>
-                <li><a href="../html/cursos.html">Cursos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
                 <li><a href="">Contactanos</a></li>
             </ul>
         </nav>
-        <a class="btn" href="html/InicioSesion.html"><button>Iniciar Sesion</button></a>
+        <a class="btn" href="InicioSesion.html"><button>Iniciar Sesion</button></a>
      </header>
-            <h1><b>Cursos</b></h1>
+            
+     <h1>Cursos</h1>
 
-        <div>
+<main id="grid-main">
+        <div class="italiana">
            <h3><u>Curso de gestor en ciudadania italiana</u></h3>
                <a href="../html/c_c_italiana.html">
                    <img src="../IMAGENES/pasaporte-italiano.jpg" width="300" height="300"></a>
                         <p>Modalidad ON-DEMAND En este curso aprenderás a tramitar la ciudadania italiana sin problemas!</p>
                         <p><b>$9.000</b></p>
         </div>
-<div>
+<div class="española">
     <h3><u>Curso de gestor en ciudadania española</u></h3>
         <a href="../html/c_c_espanola.html">
             <img src="../IMAGENES/espanajpg.webp" width="300" height="300"></a>
                 <p>Modalidad ON-DEMAND En este curso aprenderás a tramitar la ciudadania española sin problemas!</p>
                 <p><b>$9.000</b></p>
 </div>
-    
+
+</main>
+
+</body>
 <footer>
-    <div class="footer">
+    <div>
         <p><b>Si tenes dudas podes contactarnos por aca y te contestaremos lo antes posible.</b></p>
 
         <div class="footer">
@@ -57,11 +65,10 @@
                     <input type="email" placeholder="Email">
                 </div>    
                                 
-                     <div class="footer">
-                        <button type="submit"><a href="../html/Respuestaconsulta.html">Enviar</a></button>
-                      </div>    
+                    
+                       <a href="../html/Respuestaconsulta.html" class="btn-footer"><button>Enviar</button></a> 
+                         
                             
     </div>
 </footer>
-</body>
 </html>

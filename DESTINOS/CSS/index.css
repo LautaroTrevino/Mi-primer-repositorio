@@ -5,6 +5,9 @@
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
+body{
+    background-color: blanchedalmond;
+}
 
 header{
     background-color: #454546;
@@ -61,22 +64,84 @@ header .btn button:hover{
     transition: scale(1.2);
 }
 
-.iniciosesion{
+h1{
+    font-size: 80px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0.5cm;
-    padding-bottom: 0.1cm;
 }
 
+h2{
+    font-size: 40px;
+    text-align: center;
+}
 
+h3{
+    font-size: 30px;
+}
 
-#encabezado{
-    font-family: 'Oswald', sans-serif;
-    font-size: 100px ;
-    font-weight: 400;
-    margin-bottom: 10px;
-    padding-top: 0.1CM;
+#grid-main{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin: 0 auto;
+    padding: 20px;
+   }
+   main .asesorias .btn-ases button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: #454546 solid;
+    margin: 10px;
+    
+}
 
+main .asesorias .btn-ases button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
+}
+
+main .cursos .btn-cursos button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: #454546 solid;
+    margin: 10px;
+    
+}
+
+main .cursos .btn-cursos button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
+}
+
+main .carpetas .btn-carpetas button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: #454546 solid;
+    margin: 10px;
+    
+}
+
+main .carpetas .btn-carpetas button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
 }
 
 footer{
@@ -104,3 +169,4 @@ footer{
         color: blueviolet;
         transition: scale(1.2);
     }
+

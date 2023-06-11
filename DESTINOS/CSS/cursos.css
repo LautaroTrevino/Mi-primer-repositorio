@@ -60,3 +60,48 @@ header .btn button:hover{
     color: blueviolet;
     transition: scale(1.2);
 }
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+#grid-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+.italiana{
+    justify-content: center;
+}
+
+
+footer{
+    background-color: #454546;
+}
+
+.footer{
+    padding: 10px;
+}
+
+footer .btn-footer button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer .btn-footer button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
+}
