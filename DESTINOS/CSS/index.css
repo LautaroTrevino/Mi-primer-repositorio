@@ -9,6 +9,8 @@ body{
     background-color: blanchedalmond;
 }
 
+
+
 header{
     background-color: #454546;
     display: flex;
@@ -23,6 +25,7 @@ header .logo img{
     height: 70px;
     width: auto;
     transition: all 0.3s;
+    border-radius: 50%;
 }
 
 header .logo img:hover{
