@@ -20,6 +20,7 @@ header .logo img{
     height: 70px;
     width: auto;
     transition: all 0.3s;
+    border-radius: 50%;
 }
 
 header .logo img:hover{
@@ -56,6 +57,43 @@ header .btn button{
 }
 
 header .btn button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #454546;
+}
+
+.footer{
+    padding: 10px;
+}
+
+
+
+footer .btn-footer button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer .btn-footer button:hover{
     background-color: beige;
     color: blueviolet;
     transition: scale(1.2);

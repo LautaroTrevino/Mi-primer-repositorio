@@ -147,6 +147,10 @@ main .carpetas .btn-carpetas button:hover{
     transition: scale(1.2);
 }
 
+
+#grid-main .asesorias{
+    justify-content: center;
+}
 footer{
     background-color: #454546;
      }

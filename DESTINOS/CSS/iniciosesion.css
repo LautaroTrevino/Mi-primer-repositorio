@@ -20,6 +20,7 @@ header .logo img{
     height: 70px;
     width: auto;
     transition: all 0.3s;
+    border-radius: 50%;
 }
 
 header .logo img:hover{
@@ -56,6 +57,69 @@ header .btn button{
 }
 
 header .btn button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
+}
+body{
+    background-color: blanchedalmond;
+}
+
+h2{
+    text-align: center;
+    font-size: 80px;
+    margin: 30px;
+}
+
+form{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-form button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border:#454546 solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.btn-form button:hover{
+    background-color: beige;
+    color: blueviolet;
+    transition: scale(1.2);
+}
+
+footer{
+    background-color: #454546;
+}
+
+.footer{
+    padding: 10px;
+}
+
+footer .btn-footer button{
+    font-weight: 700;
+    color: #454546;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer .btn-footer button:hover{
     background-color: beige;
     color: blueviolet;
     transition: scale(1.2);
