@@ -81,9 +81,11 @@ h3{
     font-size: 30px;
 }
 
-#grid-main{
-    display: grid;
-    grid-template-columns: auto auto auto ;
+#flex-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
    }
@@ -147,20 +149,34 @@ main .carpetas .btn-carpetas button:hover{
     transition: scale(1.2);
 }
 
-
-#grid-main .asesorias{
-    justify-content: center;
+#flex-main .asesorias{
+    width: 300px;
 }
+
+#flex-main .cursos{
+    width: 300px;
+}
+
+#flex-main .carpetas{
+    width: 300px;
+}
+
+#grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    }
+
 footer{
     background-color: #454546;
      }
-
-
-.pie {
-    margin: 10px auto;
-    }
-
-    footer .btn-footer button{
+footer #grid-footer .pie{
+    border: black solid;
+    width: 300px;
+    height: 50px;
+    margin: 20px 20px;
+    padding: 9px 25px;
+}
+ footer .btn-footer button{
         font-weight: 700;
         color: #454546;
         padding: 9px 25px;
@@ -169,7 +185,12 @@ footer{
         border-radius: 50px;
         cursor: pointer;
         transition: all 0.3s;
+        margin-top: 20px;
     }
+        
+        
+
+    
     
     footer .btn-footer button:hover{
         background-color: beige;
